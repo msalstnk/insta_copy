@@ -4,28 +4,27 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5motPZEWtThhpJPbAuFXK1nEMP9jNKuNSXbIwmVnyXMKrnXJYXP7wu5RD&s=10" width=200px />
+        <div id="top">
+            <img src="https://i.namu.wiki/i/ClLn9dOE6ZuBTfGh0U5wbLUkxLKDpu_tCJv1rgsA3uTSSqJYqyWiU564_ix2NgmB4OOmdkCtrZYw--O4vGmPva5xSepLCskw9DSVg3NQDXv9-HY3_L-7rTd78ddDP87ihGw3p_4cV5wWM2r1kRZ78A.webp"/>
+            
             <input type="search" value="검색"/>
-            <input type="file" accept="video"/>
-            <input type="color"/>
-            <input type="checkbox" checked/> 저녁 먹었나요?<br/> 
-            <input type="radio" name="radio"/> ocd
-            <input type="radio" name="radio"/> TS
-            <input type="radio" name="radio2"/> HOF
-            <input type="radio" name="radio2"/> twin
-            <input type="range" min="0" max="100" step="50" value="80"/>
-
+            <div></div>
          </div>
+
         <div>
-            <img src="image\모모카.webp" width="200px" />
-            <div>
-                <h2>half_bottle</h2>
-                <button>프로필 편집</button>
+            <div id="profile">
+                <div id="profile_pics">
+                    <img class="circle_pic" src="image\모모카.webp" />
+                </div>  
+                <div id="profile_info">
+                    <div>half_bottle</div>
+                    <button>프로필 편집</button>
+                </div>
+
             </div>
         </div>
         <div>
-            <p id="profile">
+            <p>
                 <strong>반병현<br/></strong>
                 저자
             </p>
@@ -33,37 +32,54 @@
                 <a href= https://namu.wiki/w/%EB%82%98%EB%AC%B4%EC%9C%84%ED%82%A4:%EB%8C%80%EB%AC%B8> 나무위키</a>
             </p>
         </div>
-        <div class="highlight"> 
-            <div>
-                <img src="C:\Users\kmsun\Desktop\프론트\image\니나.webp" width=35 />
-            </div>
-            <div>😊</div>
-            <div>
-                <img src="C:\Users\kmsun\Desktop\프론트\image\표독.webp" width="35" />
-            </div>
-            <div>😂</div>
 
-        <div>
-        <div>
-            <p>
-                <div>
+        <div id="highlight_area"> 
+            <div class="highlight">
+                <div class="highlight_pics">
+                    <img class="circle_pic"src="C:\Users\kmsun\Desktop\프론트\image\니나.webp"  />
+                </div>
+                <div>😊</div>
+            </div>
+            <div class="highlight">
+                <div class="highlight_pics">
+                    <img class="circle_pic" src="C:\Users\kmsun\Desktop\프론트\image\표독.webp" />
+                </div>
+                <div>😂</div>
+            </div>
+            <div></div>
+
+        </div>
+
+        <div id="stat_bar">
+                <div class="stat">
                     게시물<br/>
                     133
                 </div>
-                <div>
+                <div class="stat">
                     팔로워<br/>
                     408
                 </div>
-                <div>
+                <div class="stat">
                     팔로우<br/>
                     189
                 </div>
         </div>
+
         <div> 아이콘이 들어갈 자리</div>
-        <div>
-            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\effcts.jpeg" width="32%"/>
-            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\ocd.jpg" width="32%"/>
-            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\td4.jpg" width="32%"/>
+
+        <div class="thumbnail_grid">
+            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\effcts.jpeg" class="thumbnail"/>
+            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\ocd.jpg" class="thumbnail"/>
+            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\td4.jpg" class="thumbnail"/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\리츠.webp" class="thumbnail"/>
+            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\무기.webp" class="thumbnail"/>
+            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\미오.webp" class="thumbnail"/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\아즈.webp" class="thumbnail"/>
+            <img src="C:\Users\kmsun\Desktop\프론트\image\thumbnails\유이.webp" class="thumbnail"/>
         </div>
     </body>
 </html>
